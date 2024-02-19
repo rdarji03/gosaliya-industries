@@ -85,10 +85,9 @@
             <div class="bg-cover bg-center bg-no-repeat  h-full text-[white] py-24 px-10 object-fill flex items-center justify-center"
                 style="background-image: url({{ asset('img/home/banner-img.jpg') }})">
                 <div class="md:w-1/2 flex flex-col items-center">
-                    <p class="text-6xl font-bold animate-fade-right font-poopins tracking-wider text-center">Electroplating Perfected
+                    <p class="text-6xl font-bold animate-fade-right font-poopins tracking-wider text-center">Suspendisse elementum
                     </p>
-                    <p class=" text-[30px]  leading-none mt-[30px] mb-[45px] font-open-sans">Our Commitment to Excellence
-                        and Efficiency</p>
+                    <p class=" text-[30px]  leading-none mt-[30px] mb-[45px] font-open-sans text-center">Nullam id sollicitudin dolor. Vestibulum tortor libero,</p>
                     <button type="button"
                         class="text-white bg-[#2c318c] hover:bg-[#f29503] transition-all duration-200  font-medium rounded-full text-m px-5 py-2.5 text-center me-2 mb-2 mt-5">Read
                         More</button>
