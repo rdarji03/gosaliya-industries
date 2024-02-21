@@ -2,3 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Poppins:ital,wght@1,600&display=swap');
+@font-face {
+    font-family: 'title-font';
+    src: url('E:\webdevelopment\projects\Gosaliya Wire\website-files\gosaliya-wire\public\asset\exotc350-bd-bt\EXOT350B.ttf') format('truetype');
+} 

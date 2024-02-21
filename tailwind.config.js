@@ -10,7 +10,8 @@ export default {
     extend: {
       fontFamily:{
         'poopins':['Poppins', "sans-serif"],
-        'open-sans':['Open Sans', 'sans-serif']
+        'open-sans':['Open Sans', 'sans-serif'],
+        'titleFont':['title-font']
       }
     },
   },

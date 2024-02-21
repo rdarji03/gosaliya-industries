@@ -80,20 +80,21 @@
     </head> --}}
 
 <body>
-    <div class="sliderAx h-auto">
+  <div class="sliderAx h-auto">
         <div id="slider-1" class="">
-            <div class="bg-cover bg-center bg-no-repeat  h-full text-[white] py-24 px-10 object-fill flex items-center justify-center"
+            <div class=" aspect-auto min-h-[560px] relative overflow-hidden bg-cover bg-no-repeat p-12 text-center"
                 style="background-image: url({{ asset('img/home/banner-img.jpg') }})">
-                <div class="md:w-1/2 flex flex-col items-center">
-                    <p class="text-6xl font-bold animate-fade-right font-poopins tracking-wider text-center">Suspendisse elementum
+                <div class="md:w-1/2 min-h-[500px] flex flex-col justify-center ">
+                    <p class="text-6xl font-bold animate-fade-right font-titleFont tracking-wider text-white text-left">GOSALIA WIRES INC
                     </p>
-                    <p class=" text-[30px]  leading-none mt-[30px] mb-[45px] font-open-sans text-center">Nullam id sollicitudin dolor. Vestibulum tortor libero,</p>
+                    <p class=" text-left text-[30px]  leading-none mt-[30px] mb-[30px] font-open-sans text-white ">With our wires, you never disconnect</p>
                     <button type="button"
-                        class="text-white bg-[#2c318c] hover:bg-[#f29503] transition-all duration-200  font-medium rounded-full text-m px-5 py-2.5 text-center me-2 mb-2 mt-5">Read
+                        class="w-[200px] text-white hover:bg-white hover:text-[#2c318c] bg-[#f29503] transition-all duration-200  font-medium rounded-full text-m px-5 py-2.5 text-center inline">Read
                         More</button>
-                </div> <!-- container -->
-                <br>
-            </div>
+                </div> 
+            </div> 
+        </div>
+  </div>
 
             {{-- <div id="slider-2" class="">
             <div class="bg-cover bg-top  h-full flex items-center text-white py-24 px-10 object-fill" style="background-image: url({{asset("img/sliders/slider-2.jpg")}})">
@@ -111,5 +112,7 @@
             <button id="sButton1" onclick="sliderButton1()" class="bg-purple-400 rounded-full w-4 pb-2 " ></button>
         <button id="sButton2" onclick="sliderButton2() " class="bg-purple-400 rounded-full w-4 p-2"></button>
       </div> --}}
-        </div>
+        {{-- </div> --}}
+        <!-- TW Elements is free under AGPL, with commercial license required for specific uses. See more details: https://tw-elements.com/license/ and contact us for queries at tailwind@mdbootstrap.com --> 
+
 </body>
