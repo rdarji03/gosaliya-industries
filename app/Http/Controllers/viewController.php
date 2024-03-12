@@ -9,4 +9,7 @@ class viewController extends Controller
     public function viewHome(){
         return view("home");
     }
+    public function viewAbout(){
+        return view("layouts.about.about");
+    }
 }
