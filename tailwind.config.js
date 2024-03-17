@@ -1,5 +1,8 @@
 /** @type {import('tailwindcss').Config} */
 export default {
+  daisyui: {
+    themes: ["light", "dark", "cupcake"],
+  },
   content: [
     "./resources/**/*.blade.php",
     "./resources/**/*.js",
@@ -31,7 +34,8 @@ export default {
     },
   },
   plugins: [
-    require('flowbite/plugin')
+    require('flowbite/plugin'),
+    require("daisyui")
 
   ],
 }

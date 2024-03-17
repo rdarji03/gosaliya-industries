@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html data-theme="light">
 <head>
   <meta charset="utf-8">
   <link rel="shortcut icon" type="image/x-icon" href="{{ asset('img/logo/fav.png') }}">

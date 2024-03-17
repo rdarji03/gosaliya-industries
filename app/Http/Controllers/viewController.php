@@ -15,4 +15,10 @@ class viewController extends Controller
     public function viewProduct(){
         return view("product.product");
     }
+    public function viewProcess(){
+        return view("process.process");
+    }
+    public function viewContact(){
+        return view("contact.contact");
+    }
 }

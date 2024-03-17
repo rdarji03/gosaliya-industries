@@ -14,16 +14,19 @@
       <div class="hidden w-full md:block md:w-auto" id="navbar-default">
         <ul class="md:font-medium sm:text-sm md:text-base	 flex flex-col p-4 md:p-0   bg-[black] md:flex-row md:space-x-8">
           <li>
-            <a href="#" class="block pb-0 px-3 text-[#f29503] ease-in duration-150  md:hover:text-white uppercase text-base" aria-current="page">Home</a>
+            <a href="/" class="block pb-0 px-3 text-[#f29503] ease-in duration-150  md:hover:text-white uppercase text-base" aria-current="page">Home</a>
           </li>
           <li>
-            <a href="#" class="block pb-0 px-3 text-[#f29503] ease-in duration-150 md:hover:text-white uppercase text-base" aria-current="page">About</a>
+            <a href="/about" class="block pb-0 px-3 text-[#f29503] ease-in duration-150 md:hover:text-white uppercase text-base" aria-current="page">About</a>
           </li>
           <li>
-            <a href="#" class="block pb-0 px-3 text-[#f29503] ease-in duration-150  md:hover:text-white uppercase text-base" aria-current="page">Products</a>
+            <a href="/product" class="block pb-0 px-3 text-[#f29503] ease-in duration-150  md:hover:text-white uppercase text-base" aria-current="page">Products</a>
           </li>
           <li>
-            <a href="#" class="block pb-0 px-3 text-[#f29503] ease-in duration-150 md:hover:text-white uppercase text-base" aria-current="page">Contact Us</a>
+            <a href="/process" class="block pb-0 px-3 text-[#f29503] ease-in duration-150  md:hover:text-white uppercase text-base" aria-current="page">Process</a>
+          </li>
+          <li>
+            <a href="/contact" class="block pb-0 px-3 text-[#f29503] ease-in duration-150 md:hover:text-white uppercase text-base" aria-current="page">Contact Us</a>
           </li>
           
         </ul>
