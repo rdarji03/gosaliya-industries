@@ -10,14 +10,14 @@
                 <div class="max-w-screen-xl mx-auto py-8 px-4 lg:py-16 lg:px-6">
                     <div class="text-center mb-10">
                         <h1
-                            class="text-[#2c318c] border-b-2 border-[#f29503]  inline-block md:text-4xl font-semibold pb-1 text-center font-titleFont mb-5">
+                            class="text-[#2c318c] border-b-2 border-[#f29503]  inline-block md:text-4xl text-2xl font-semibold pb-1 text-center font-titleFont mb-5">
                             ABOUT OUR COMPANY</h1>
                     </div>
 
                     <div class="flex flex-col md:flex-row items-center">
                         <!-- can help image -->
                         <div class="mr-0 md:mr-8 mb-6 md:mb-0">
-                            <img class="w-1/2 md:w-full mx-auto" src="https://placeholder.pics/svg/400" alt="can_help_banner">
+                            <img class="w-full md:w-full mx-auto" src="https://placeholder.pics/svg/400" alt="can_help_banner">
                         </div>
                         <!-- end can help image -->
 
@@ -48,7 +48,7 @@
 
                             <div class="w-full sm:w-1/2 mb-4 px-2 ">
                                 <div
-                                    class="min-h-[190px] py-4 px-6 border border-[#f29503]  border-t-0 border-l-0 rounded-br-xl ">
+                                    class="min-h-[190px] py-4 px-6 border border-[#f29503]  border-t-0 border-l-0 rounded-br-xl   hover:shadow-lg transition-all ">
                                     <h3 class="text-2xl font-bold text-md mb-6 text-[#2c318c] font-titleFont ">Tincidunt
                                         Viverra</h3>
                                     <p class="text-sm"> Curabitur tincidunt viverra aliquet. Nunc eget ipsum eu est mattis
@@ -73,7 +73,7 @@
                         <div class="mx-auto max-w-[570px] text-center mb-[50px] wow fadeInUp" data-wow-delay=".1s"
                             style="visibility: visible; animation-delay: 0.1s;">
                             <h2
-                                class="text-[#2c318c] border-b-2 border-[#f29503]  inline-block md:text-4xl font-semibold pb-1 text-center  mb-5 font-titleFont">
+                                class="text-[#2c318c] border-b-2 border-[#f29503]  inline-block md:text-4xl text-2xl font-semibold pb-1 text-center  mb-5 font-titleFont">
                                 OUR SERVICES</h2>
                             <p class="text-body-color text-base md:text-lg leading-relaxed md:leading-relaxed">
                                 There are many variations of passages of Lorem Ipsum available but the majority have
@@ -83,9 +83,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="flex flex-wrap  justify-center gap-5 mb-[50px]">
+                <div class="flex flex-wrap  justify-center gap-5 mb-[50px] px-4">
                     <div
-                        class=" min-h-[250px] service-box bg-white shadow-md w-96 border-t-8 border-[#2c318c] rounded-lg flex flex-col items-center p-5 hover:border-[#f29503] transition-all duration-300 ">
+                        class=" min-h-[250px] service-box bg-white shadow-md md:w-96 w-full border-t-8 border-[#2c318c] rounded-lg flex flex-col items-center p-5 hover:border-[#f29503] transition-all duration-300 ">
                         <div class="service-icon">
                             <img src="{{ asset('img/home/serve-icon.png') }}" class=" w-[70%]">
                         </div>
@@ -100,7 +100,7 @@
                         </div>
                     </div>
                     <div
-                        class=" min-h-[250px] service-box bg-white shadow-md w-96 border-t-8 border-[#2c318c] rounded-lg flex flex-col items-center hover:border-[#f29503] transition-all duration-300 p-5">
+                        class=" min-h-[250px] service-box bg-white shadow-md md:w-96 w-full border-t-8 border-[#2c318c] rounded-lg flex flex-col items-center hover:border-[#f29503] transition-all duration-300 p-5">
                         <div class="service-icon">
                             <img src="{{ asset('img/home/serve-icon.png') }}" class=" w-[70%]">
                         </div>
@@ -115,7 +115,7 @@
                         </div>
                     </div>
                     <div
-                        class=" min-h-[250px] service-box bg-white shadow-md w-96 border-t-8 border-[#2c318c] rounded-lg flex flex-col items-center hover:border-[#f29503] transition-all duration-300 p-5">
+                        class=" min-h-[250px] service-box bg-white shadow-md md:w-96 w-full border-t-8 border-[#2c318c] rounded-lg flex flex-col items-center hover:border-[#f29503] transition-all duration-300 p-5">
                         <div class="service-icon">
                             <img src="{{ asset('img/home/serve-icon.png') }}" class=" w-[70%]">
                         </div>
@@ -143,7 +143,7 @@
                     <div class="mx-auto max-w-[570px] text-center  wow fadeInUp" data-wow-delay=".1s"
                         style="visibility: visible; animation-delay: 0.1s;">
                         <h2
-                            class="text-[#2c318c] border-b-2 border-[#f29503]  inline-block md:text-4xl font-semibold pb-1 text-center font-poopins mb-5">
+                            class="text-[#2c318c] border-b-2 border-[#f29503]  inline-block md:text-4xl text-2xl font-semibold pb-1 text-center font-titleFont mb-5">
                             Our Process </h2>
                         <p class="text-body-color text-base md:text-lg leading-relaxed md:leading-relaxed">
                             There are many variations of passages of Lorem Ipsum available but the majority have
@@ -153,9 +153,9 @@
                     </div>
                 </div>
             </div>
-            <div class="process-container">
+            <div class="process-container px-4">
                 <div class="w-full">
-                    <div class="container mx-auto my-32 flex flex-col items-center gap-16">
+                    <div class="container mx-auto my-10 flex flex-col items-center gap-16">
                       
                       <div
                         class="flex w-full flex-col items-center justify-between gap-y-10 lg:flex-row lg:gap-x-8 lg:gap-y-0 xl:gap-x-10"

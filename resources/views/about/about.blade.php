@@ -8,17 +8,17 @@
                 <div class="about-company-heading mb-10">
                     <div class="flex items-center justify-center">
                         <img src="{{ asset('img/about/sort-l.png') }}" alt="" srcset="" class="w-[3%] h-auto">
-                        <h1 class="text-[#2c318c]  inline-block text-4xl font-semibold  text-center font-titleFont">
+                        <h1 class="text-[#2c318c]  inline-block lg:text-4xl text-2xl font-semibold  text-center font-titleFont">
                             ABOUT OUR COMPANY</h1>
                         <img src="{{ asset('img/about/sort.png') }}" alt="" srcset="" class="w-[3%] h-auto">
                     </div>
 
                 </div>
-                <div class="about-company-content flex items-center">
-                    <div class="abt-image w-1/2 flex justify-center">
+                <div class="about-company-content flex md:flex-row flex-col items-center px-4">
+                    <div class="abt-image md:w-1/2 w-full flex justify-center">
                         <img src="{{ asset('img/about/about.jpg') }}" alt="Amritya Industry" class="w-[70%]" />
                     </div>
-                    <div class="abt-desc w-1/2 flex flex-col gap-5">
+                    <div class="abt-desc md:w-1/2 w-full flex flex-col gap-5">
                         <p class=" md:text-3xl  font-semibold my-4">The Modern & Largest Industrial Company in this
                             Field
                         </p>
@@ -57,17 +57,17 @@
                 <div class="about-company-heading my-10">
                     <div class="flex items-center justify-center">
                         <img src="{{ asset('img/about/sort-l.png') }}" alt="" srcset="" class="w-[3%] h-auto">
-                        <h1 class="text-[#2c318c]  inline-block text-4xl font-semibold  text-center font-titleFont">
+                        <h1 class="text-[#2c318c]  inline-block lg:text-4xl text-2xl font-semibold  text-center font-titleFont">
                             WHY CHOOSE US</h1>
                         <img src="{{ asset('img/about/sort.png') }}" alt="" srcset="" class="w-[3%] h-auto">
                     </div>
 
                 </div>
-                <div class="about-company-content flex flex-row-reverse items-center ">
-                    <div class="abt-image w-1/2 flex justify-center">
+                <div class="about-company-content flex md:flex-row-reverse flex-col items-center px-4">
+                    <div class="abt-image  md:w-1/2 w-full flex justify-center">
                         <img src="{{ asset('img/about/about.jpg') }}" alt="Amritya Industry" class="w-[70%]" />
                     </div>
-                    <div class="abt-desc w-1/2">
+                    <div class="abt-desc md:w-1/2 w-full">
                         <p class=" md:text-3xl  font-semibold my-4">The Modern & Largest Industrial Company in this
                             Field
                         </p>

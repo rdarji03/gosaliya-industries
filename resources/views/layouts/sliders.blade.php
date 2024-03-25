@@ -85,7 +85,7 @@
             <div class=" aspect-auto min-h-[560px] relative overflow-hidden bg-cover bg-no-repeat p-12 text-center"
                 style="background-image: url({{ asset('img/home/banner-img.jpg') }})">
                 <div class="md:w-1/2 min-h-[500px] flex flex-col justify-center ">
-                    <p class="text-6xl font-bold animate-fade-right font-titleFont tracking-wider text-white text-left">GOSALIA WIRES INC
+                    <p class="md:text-6xl text-3xl font-bold animate-fade-right font-titleFont tracking-wider text-white text-left">GOSALIA WIRES INC
                     </p>
                     <p class=" text-left text-[30px]  leading-none mt-[30px] mb-[30px] font-open-sans text-white ">With our wires, you never disconnect</p>
                     <button type="button"
