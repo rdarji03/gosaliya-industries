@@ -1,12 +1,12 @@
 @extends('layouts.index')
-@section('title', 'About')
+@section('title', 'Product')
 @include('layouts.navbar')
 @section('content')
     <div class="product-section my-10">
-        <div class="product-heading mb-10">
+        <div class="product-heading mb-10 px-5">
             <div class="flex items-center justify-center">
                 <img src="{{ asset('img/about/sort-l.png') }}" alt="" srcset="" class="w-[3%] h-auto">
-                <h1 class="text-[#2c318c]  inline-block text-4xl font-semibold  text-center font-titleFont">
+                <h1 class="text-[#2c318c]  inline-block md:text-4xl text-2xl font-semibold  text-center font-titleFont">
                     OUR PRODUCT</h1>
                 <img src="{{ asset('img/about/sort.png') }}" alt="" srcset="" class="w-[3%] h-auto">
             </div>
@@ -17,31 +17,33 @@
             </div>
             <div class="product-slider">
                 <div class="relative flex overflow-x-hidden">
-                    <div class="py-12 animate-marquee whitespace-nowrap flex">
-                        <span class="text-4xl mx-4"><img src="{{ asset('img/product/450x400.png') }}" alt=""
-                                srcset="" class="h-auto"></span>
-                        <span class="text-4xl mx-4"><img src="{{ asset('img/product/450x400.png') }}" alt=""
-                                srcset="" class=" h-auto"></span>
-                        <span class="text-4xl mx-4"><img src="{{ asset('img/product/450x400.png') }}" alt=""
-                                srcset="" class="h-auto"></span>
-                        <span class="text-4xl mx-4"><img src="{{ asset('img/product/450x400.png') }}" alt=""
-                                srcset="" class=" h-auto"></span>
-                        <span class="text-4xl mx-4"><img src="{{ asset('img/product/450x400.png') }}" alt=""
-                                srcset="" class="h-auto"></span>
+                </div>
+                <div class="swiper product-curosel ">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper md:min-h-[300px] min-h-auto h-auto mt-10">
+                        <!-- Slides -->
+                        <div class="swiper-slide"><img src="{{ asset('img/product/450x400.png') }}" alt=""
+                                srcset="" class=" h-auto"></div>
+                        <div class="swiper-slide"><img src="{{ asset('img/product/450x400.png') }}" alt=""
+                            srcset="" class=" h-auto"></div>
+                        <div class="swiper-slide"><img src="{{ asset('img/product/450x400.png') }}" alt=""
+                            srcset="" class=" h-auto"></div>
+                        <div class="swiper-slide"><img src="{{ asset('img/product/450x400.png') }}" alt=""
+                            srcset="" class=" h-auto"></div>
+                        <div class="swiper-slide"><img src="{{ asset('img/product/450x400.png') }}" alt=""
+                            srcset="" class=" h-auto"></div>
+                        <div class="swiper-slide"><img src="{{ asset('img/product/450x400.png') }}" alt=""
+                            srcset="" class=" h-auto"></div>
+                        <div class="swiper-slide"><img src="{{ asset('img/product/450x400.png') }}" alt=""
+                            srcset="" class=" h-auto"></div>
+                        <div class="swiper-slide"><img src="{{ asset('img/product/450x400.png') }}" alt=""
+                            srcset="" class=" h-auto"></div>
+                        
                     </div>
+                    
+                
 
-                    <div class="absolute top-0 py-12 animate-marquee2 whitespace-nowrap flex">
-                        <span class="text-4xl mx-4"><img src="{{ asset('img/product/450x400.png') }}" alt=""
-                                srcset="" class=" h-auto"></span>
-                        <span class="text-4xl mx-4"><img src="{{ asset('img/product/450x400.png') }}" alt=""
-                                srcset="" class="h-auto"></span>
-                        <span class="text-4xl mx-4"><img src="{{ asset('img/product/450x400.png') }}" alt=""
-                                srcset="" class="h-auto"></span>
-                        <span class="text-4xl mx-4"><img src="{{ asset('img/product/450x400.png') }}" alt=""
-                                srcset="" class=" h-auto"></span>
-                        <span class="text-4xl mx-4"><img src="{{ asset('img/product/450x400.png') }}" alt=""
-                                srcset="" class="h-auto"></span>
-                    </div>
+                    
                 </div>
 
             </div>
@@ -49,7 +51,7 @@
         <div class="product-benifits">
             <div class="flex items-center justify-center mb-8">
                 <img src="{{ asset('img/about/sort-l.png') }}" alt="" srcset="" class="w-[3%] h-auto">
-                <h1 class="text-[#2c318c]  inline-block text-4xl font-semibold  text-center font-titleFont">
+                <h1 class="text-[#2c318c]  inline-block md:text-4xl text-2xl font-semibold  text-center font-titleFont">
                     BENIFITS</h1>
                 <img src="{{ asset('img/about/sort.png') }}" alt="" srcset="" class="w-[3%] h-auto">
             </div>
@@ -60,8 +62,8 @@
                             class="bg-white bg-opacity-75 divide-y divide-gray-900  divide-opacity-5 backdrop-filter backdrop-blur-2xl rounded-xl">
                             <ul class="grid gap-1 p-2 md:grid-cols-3">
                                 <li>
-                                    <div class="flex items-start p-4 space-x-4 transition bg-gray-400 bg-opacity-0 rounded-lg hover:bg-opacity-5 focus:bg-opacity-10"
-                                        >
+                                    <div
+                                        class="flex items-start p-4 space-x-4 transition bg-gray-400 bg-opacity-0 rounded-lg hover:bg-opacity-5 focus:bg-opacity-10">
                                         <div
                                             class="flex items-center justify-center flex-shrink-0 w-12 h-12 font-bold text-white rounded-md ">
                                             <img src="{{ asset('img/about/engg.png') }}" alt="" srcset=""
@@ -79,8 +81,8 @@
                                     </div>
                                 </li>
                                 <li>
-                                    <div class="flex items-start p-4 space-x-4 transition bg-gray-400 bg-opacity-0 rounded-lg hover:bg-opacity-5 focus:bg-opacity-10"
-                                        >
+                                    <div
+                                        class="flex items-start p-4 space-x-4 transition bg-gray-400 bg-opacity-0 rounded-lg hover:bg-opacity-5 focus:bg-opacity-10">
                                         <div
                                             class="flex items-center justify-center flex-shrink-0 w-12 h-12 font-bold text-white rounded-md ">
                                             <img src="{{ asset('img/about/engg.png') }}" alt="" srcset=""
@@ -98,8 +100,8 @@
                                     </div>
                                 </li>
                                 <li>
-                                    <div class="flex items-start p-4 space-x-4 transition bg-gray-400 bg-opacity-0 rounded-lg hover:bg-opacity-5 focus:bg-opacity-10"
-                                      >
+                                    <div
+                                        class="flex items-start p-4 space-x-4 transition bg-gray-400 bg-opacity-0 rounded-lg hover:bg-opacity-5 focus:bg-opacity-10">
                                         <div
                                             class="flex items-center justify-center flex-shrink-0 w-12 h-12 font-bold text-white rounded-md ">
                                             <img src="{{ asset('img/about/engg.png') }}" alt="" srcset=""
@@ -117,8 +119,8 @@
                                     </div>
                                 </li>
                                 <li>
-                                    <div class="flex items-start p-4 space-x-4 transition bg-gray-400 bg-opacity-0 rounded-lg hover:bg-opacity-5 focus:bg-opacity-10"
-                                       >
+                                    <div
+                                        class="flex items-start p-4 space-x-4 transition bg-gray-400 bg-opacity-0 rounded-lg hover:bg-opacity-5 focus:bg-opacity-10">
                                         <div
                                             class="flex items-center justify-center flex-shrink-0 w-12 h-12 font-bold text-white rounded-md ">
                                             <img src="{{ asset('img/about/engg.png') }}" alt="" srcset=""
@@ -136,8 +138,8 @@
                                     </div>
                                 </li>
                                 <li>
-                                    <div class="flex items-start p-4 space-x-4 transition bg-gray-400 bg-opacity-0 rounded-lg hover:bg-opacity-5 focus:bg-opacity-10"
-                                        >
+                                    <div
+                                        class="flex items-start p-4 space-x-4 transition bg-gray-400 bg-opacity-0 rounded-lg hover:bg-opacity-5 focus:bg-opacity-10">
                                         <div
                                             class="flex items-center justify-center flex-shrink-0 w-12 h-12 font-bold text-white rounded-md ">
                                             <img src="{{ asset('img/about/engg.png') }}" alt="" srcset=""
@@ -155,8 +157,8 @@
                                     </div>
                                 </li>
                                 <li>
-                                    <div class="flex items-start p-4 space-x-4 transition bg-gray-400 bg-opacity-0 rounded-lg hover:bg-opacity-5 focus:bg-opacity-10"
-                                        >
+                                    <div
+                                        class="flex items-start p-4 space-x-4 transition bg-gray-400 bg-opacity-0 rounded-lg hover:bg-opacity-5 focus:bg-opacity-10">
                                         <div
                                             class="flex items-center justify-center flex-shrink-0 w-12 h-12 font-bold text-white rounded-md ">
                                             <img src="{{ asset('img/about/engg.png') }}" alt="" srcset=""

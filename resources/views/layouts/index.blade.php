@@ -25,33 +25,12 @@
     <script src="{{ asset('js/design.js') }}"></script>
 
 </body>
+<script src="{{ asset('js/slider.js') }}"></script>
 <script>
-    const swiper = new Swiper('.swiper', {
-        // Optional parameters
-        direction: 'horizontal',
-        loop: true,
-
-        // If we need pagination
-        pagination: {
-            el: '.swiper-pagination',
-        },
-
-        // Navigation arrows
-        navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-        },
-
-        // And if we need scrollbar
-        scrollbar: {
-            el: '.swiper-scrollbar',
-        },
-    });
-
     function Menu(e) {
         let list = document.querySelector('ul');
-        e.name === 'menu' ? (e.name = "close", list.classList.add('top-[160px]'), list.classList.add('opacity-100')) : (
-            e.name = "menu", list.classList.remove('top-[80px]'), list.classList.remove('opacity-100'))
+        e.name === 'menu' ? (e.name = "close", list.classList.add('top-[110px]'), list.classList.add('opacity-100'),list.classList.remove('top-[-320px]')) : (
+            e.name = "menu", list.classList.remove('top-[110px]'), list.classList.remove('opacity-100'),list.classList.add('top-[-320px]'))
     }
 </script>
 

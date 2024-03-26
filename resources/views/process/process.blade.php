@@ -56,7 +56,7 @@
 
 
         </div>
-        <div class="swiper">
+        <div class="swiper process-curosel">
             <!-- Additional required wrapper -->
             <div class="swiper-wrapper min-h-[420px] !h-auto p-4 ">
                 <!-- Slides -->
@@ -225,3 +225,6 @@
         </div>
     </div>
 @endsection
+<script>
+    
+</script>
