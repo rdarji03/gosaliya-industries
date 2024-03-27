@@ -71,11 +71,10 @@
                                         </div>
 
                                         <div>
-                                            <h3 class="text-xl font-bold">Heading 1</h3>
+                                            <h3 class="text-xl font-bold">Water Resistance:</h3>
 
                                             <p class="text-base text-gray-900 text-opacity-60">
-                                                Despite what your teacher may have told you, there is a wrong
-                                                way to wield a lasso. At that moment he wasn't listening.
+                                                Our Manufactured Submersible wire is specifically designed to resist water penetration, ensuring safe and reliable power transmission even when submerged.
                                             </p>
                                         </div>
                                     </div>
@@ -90,11 +89,10 @@
                                         </div>
 
                                         <div>
-                                            <h3 class="text-xl font-bold">Heading 2</h3>
+                                            <h3 class="text-xl font-bold">Flexibility and Durability:</h3>
 
                                             <p class="text-base text-gray-900 text-opacity-60">
-                                                They ran around the corner to find that they had traveled back
-                                                in time. I made myself a peanut butter sandwich.
+                                                Submersible wire manufactured by us are flexible yet durable, allowing for easy installation in tight spaces and rugged terrain. 
                                             </p>
                                         </div>
                                     </div>
@@ -109,16 +107,15 @@
                                         </div>
 
                                         <div>
-                                            <h3 class="text-xl font-bold">Heading 3</h3>
+                                            <h3 class="text-xl font-bold">Electrical Efficiency:</h3>
 
                                             <p class="text-base text-gray-900 text-opacity-60">
-                                                He didn't heed the warning and it had turned out surprisingly
-                                                well. To music, he was living an experience
+                                                Our Manufactured Submersible wires are engineered to minimize electrical losses, delivering consistent power output to pumps while minimizing energy waste and operating costs.
                                             </p>
                                         </div>
                                     </div>
                                 </li>
-                                <li>
+                                {{-- <li>
                                     <div
                                         class="flex items-start p-4 space-x-4 transition bg-gray-400 bg-opacity-0 rounded-lg hover:bg-opacity-5 focus:bg-opacity-10">
                                         <div
@@ -174,7 +171,7 @@
                                             </p>
                                         </div>
                                     </div>
-                                </li>
+                                </li> --}}
                             </ul>
 
 

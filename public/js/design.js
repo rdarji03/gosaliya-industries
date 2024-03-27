@@ -5,8 +5,8 @@ document.addEventListener("DOMContentLoaded", function () {
     bar.classList.remove("width-0");
     bar.classList.add("w-full");
     bar2.classList.remove("width-0");
-    bar2.classList.add("width-80");
+    bar2.classList.add("w-full");
     bar3.classList.remove("width-0");
-    bar3.classList.add("width-70");
+    bar3.classList.add("width-80");
   });
   

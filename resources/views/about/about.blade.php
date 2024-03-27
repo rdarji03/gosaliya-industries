@@ -19,31 +19,24 @@
                         <img src="{{ asset('img/about/about.jpg') }}" alt="Amritya Industry" class="w-[70%]" />
                     </div>
                     <div class="abt-desc md:w-1/2 w-full flex flex-col gap-5">
-                        <p class=" md:text-3xl  font-semibold my-4">The Modern & Largest Industrial Company in this
+                        <p class=" md:text-3xl  font-semibold my-4 capitalize">The Modern  Industrial Company in submersible
                             Field
                         </p>
-                        <p class="mb-3">Commodo dictum iaculis eget mas phasellus ultrices nunc dignissim. Id nulla
-                            amet
-                            tincidunt urna sed massa the sed massa ultrices amet a egetristique the maecenas condimentum
-                            dolor.
-                            dictum iaculis eget more amet tincidunt urna massa done.Commodo dictum iaculis eget mas
-                            phasellus
-                            ultrices dignissim. Id nulla amet tincidunt urna sed massa the sed massa ultrices amet a
-                            egetristique maecenas condimentum dolor. </p>
+                        <p class="mb-3 capitalize">we are dedicated to revolutionizing the world of submersible wire with magnet technology, unwavering quality, and a commitment to sustainability. As a leading manufacturer and provider of submersible pump solutions, we take pride in delivering reliable, efficient, and innovative products tailored to meet the diverse needs of our customers across industries. </p>
                         
                         <div class="feature-box flex flex-col gap-5 ">
                             <div class="flex gap-4 items-start">
                                 <img src="{{ asset('img/about/engg.png') }}" alt="" srcset="" class="w-[9%] p-[10px] border rounded-full border-dashed border-[#2c318c]">
                                 <div class="w-[60%]">
-                                    <h3 class="font-semibold text-xl"> Expert Engineers</h3>
-                                    <p class="mt-1"> Commodo dictum iaculis eget mas phasellus ultrices nunc the dignissim Id nulla amet tincidunt urna.</p>
+                                    <h3 class="font-semibold text-xl">Quality Assurance</h3>
+                                    <p class="mt-1 capitalize"> At our company , quality is our top priority. Each submersible wire undergoes stringent quality control measures to ensure superior performance, durability, and reliability in the most demanding environments</p>
                                 </div>
                             </div>
                             <div class="flex gap-4 items-start">
                                 <img src="{{ asset('img/about/engg.png') }}" alt="" srcset="" class="w-[9%] p-[10px] border rounded-full border-dashed border-[#2c318c]">
                                 <div class="w-[60%]">
-                                    <h3 class="font-semibold text-xl"> Expert Engineers</h3>
-                                    <p class="mt-1"> Commodo dictum iaculis eget mas phasellus ultrices nunc the dignissim Id nulla amet tincidunt urna.</p>
+                                    <h3 class="font-semibold text-xl">Expertise and Specialization</h3>
+                                    <p class="mt-1 capitalize">we specialize in producing a wide range of submersible wires tailored to meet the diverse needs of our clients.</p>
                                 </div>
                             </div>
                         </div>
@@ -68,17 +61,9 @@
                         <img src="{{ asset('img/about/about.jpg') }}" alt="Amritya Industry" class="w-[70%]" />
                     </div>
                     <div class="abt-desc md:w-1/2 w-full">
-                        <p class=" md:text-3xl  font-semibold my-4">The Modern & Largest Industrial Company in this
-                            Field
+                        <p class=" md:text-3xl  font-semibold my-4">Trust and Performance: Why Customers Choose Us
                         </p>
-                        <p class="mb-9">Commodo dictum iaculis eget mas phasellus ultrices nunc dignissim. Id nulla
-                            amet
-                            tincidunt urna sed massa the sed massa ultrices amet a egetristique the maecenas condimentum
-                            dolor.
-                            dictum iaculis eget more amet tincidunt urna massa done.Commodo dictum iaculis eget mas
-                            phasellus
-                            ultrices dignissim. Id nulla amet tincidunt urna sed massa the sed massa ultrices amet a
-                            egetristique maecenas condimentum dolor.
+                        <p class="mb-9 capitalize">When it comes to selecting a partner for your submersible wire needs, there are many options available. However, at our company, we believe that our dedication to excellence, innovation, and customer satisfaction sets us apart. Here are several reasons why you should choose us as your trusted partner:
                         </p>
                         <div class="progress-bar">
                             <div class="progress-title flex justify-between w-[85%] mb-1">
@@ -93,8 +78,8 @@
                                 </div>
                             </div>
                             <div class="progress-title flex justify-between w-[85%] mb-1">
-                                <h4>Manufacture</h4>
-                                <h4>80%</h4>
+                                <h4>Quality</h4>
+                                <h4>100%</h4>
                             </div>
                             <div class="h-3 relative max-w-xl rounded-full overflow-hidden mb-5 bg-[#2c318c20]">
                                 <div class="w-[80%] h-full  absolute"></div>
@@ -103,8 +88,8 @@
                                 </div>
                             </div>
                             <div class="progress-title flex justify-between w-[85%] mb-1">
-                                <h4>Manufacture</h4>
-                                <h4>70%</h4>
+                                <h4>Service</h4>
+                                <h4>80%</h4>
                             </div>
                             <div class="h-3 relative max-w-xl rounded-full overflow-hidden mb-5 bg-[#2c318c20]">
                                 <div class="w-[80%] h-full  absolute"></div>
